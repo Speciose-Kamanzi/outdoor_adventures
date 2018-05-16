@@ -85,25 +85,49 @@ ul li:hover .dropdown:hover {
   margin-top: 1%;
   grid-gap: 10px; }
   #container h1 {
-    font-size: 30px; }
+    font-size: 30px;
+    text-align: center; }
 
 .rock {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1; }
 
-div img {
-  height: 240px;
+#container img {
+  height: 150px;
   width: 379px; }
 
 div {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+h1 {
+  text-align: left; }
+
+#rock_image {
+  text-align: left; }
 
 .menu {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  height: 350px;
+  height: 440px;
+  text-align: center; }
+
+.sidetext {
+  text-align: right;
+  padding: 12px;
+  margin: 70px 0 0 90px; }
+
+#table_mountain {
+  text-align: center; }
+
+.menu2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  height: 440px;
   text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
