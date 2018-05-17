@@ -118,8 +118,8 @@ ul li:hover .dropdown:hover{
   grid-row-start: 1;
 }
 #container img{
-  height: 150px;
-  width: 379px;
+  height: 210px;
+  width: 368px;
 }
 div{
   text-align: center;
@@ -131,7 +131,7 @@ h1{
   text-align: left;
   // margin-left: 110px;
 }
-#rock_image{
+#info_image{
   text-align: left;
 }
 
@@ -147,13 +147,27 @@ h1{
   padding: 12px;
   margin:70px 0 0 90px;
 }
-#table_mountain{
+#info_text{
   text-align: center;
 }
 .menu2{
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows:1fr;
-  height:440px;
+  height:340px;
+  text-align: center;
+}
+.menu3{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows:1fr;
+  height:350px;
+  text-align: center;
+}
+.menu4{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows:1fr;
+  height:450px;
   text-align: center;
 }
