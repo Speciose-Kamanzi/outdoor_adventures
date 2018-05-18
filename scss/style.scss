@@ -9,6 +9,7 @@ body{
   margin: 0;
   overflow-x: hidden;
 }
+// the beginning of styling the nav bar
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,7 +17,7 @@ ul {
     overflow: hidden;
     background-color: #333;
   }
-
+// code for my catogories
   .dropdown{
     float: left;
     overflow: hidden;
@@ -88,6 +89,7 @@ ul li:hover .dropdown:hover{
   @include headerBackground;
   height: 260px;
 
+
 }
 .top1{
 
@@ -97,8 +99,11 @@ ul li:hover .dropdown:hover{
     text-align: center;
     color: #fff;
     background-color: #555;
+    // background-color: lightgray;
+    // background-blend-mode: screen;
 
 }
+// end of styling the nav bar
 
 #container{
   display:grid;
@@ -106,6 +111,7 @@ ul li:hover .dropdown:hover{
   grid-template-rows: 1fr;
   margin-top: 1%;
   grid-gap: 10px;
+  overflow: hidden;
 
   h1{
     font-size: 30px;
@@ -134,12 +140,15 @@ h1{
 #info_image{
   text-align: left;
 }
+div{
+  overflow:hidden;
+}
 
 .menu{
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows:1fr;
-  height:440px;
+  // height:440px;
   text-align: center;
 }
 .sidetext{
@@ -149,25 +158,46 @@ h1{
 }
 #info_text{
   text-align: center;
+  margin: 0 40px;
 }
 .menu2{
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows:1fr;
-  height:340px;
   text-align: center;
 }
 .menu3{
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows:1fr;
-  height:350px;
   text-align: center;
 }
+
+
 .menu4{
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows:1fr;
-  height:450px;
   text-align: center;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  #container img{
+    width: 100%;
+    height: 100%;
+    padding:0;
+
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:620px){
+  /*for mobile phones*/
+  img{
+    width:100%;
+    height:10%;
+    padding:0;
+  }
 }
