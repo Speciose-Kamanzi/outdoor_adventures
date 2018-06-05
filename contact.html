@@ -2,13 +2,15 @@
   <head>
     <meta charset="utf-8">
     <title>contact</title>
-      <link rel="stylesheet" href="../css/contact_style.css">
+      <link rel="stylesheet" href="css/contact_style.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
     <style media="screen">
 
 
 
 
-    body{
+    h1,form{
       margin-left:30%;
       margin-right: 30%;
     }
@@ -18,10 +20,30 @@
     </style>
   </head>
   <body>
+
+    <nav>
+      <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <div class="dropdown">
+          <button class="button" name="button">Categories</button>
+          <div class="categories">
+            <a href="#rock">Rock Climbing</a>
+            <a href="#camping">Camping</a>
+            <a href="#hiking">Hiking</a>
+            <a href="#fishing">Fishing</a>
+          </div>
+
+        </div>
+      </ul>
+    </nav>
+
+
     <h1>Contact Form</h1>
     <form class="" action="" method="post">
       <fieldset>
-      <legend>Contact Form</legend>
+      <legend>Personal Information</legend>
     <p>
     <label for="">Full Name:</label>
     <input type="name" name="" value="" placeholder="name" pattern="[A-Za-z]{16}" title="Required and only alphabates">

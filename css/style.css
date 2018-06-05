@@ -104,10 +104,7 @@ div {
   padding-bottom: 0; }
 
 h1 {
-  text-align: left; }
-
-#info_image {
-  text-align: left; }
+  text-align: center; }
 
 div {
   overflow: hidden; }
@@ -119,13 +116,11 @@ div {
   text-align: center; }
 
 .sidetext {
-  text-align: right;
-  padding: 12px;
-  margin: 70px 0 0 90px; }
+  text-align: center; }
 
-#info_text {
+#text {
   text-align: center;
-  margin: 0 40px; }
+  margin: 0 20px; }
 
 .menu2 {
   display: grid;

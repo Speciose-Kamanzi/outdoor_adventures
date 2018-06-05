@@ -134,11 +134,9 @@ div{
 
 }
 h1{
-  text-align: left;
+  text-align: center;
   // margin-left: 110px;
-}
-#info_image{
-  text-align: left;
+
 }
 div{
   overflow:hidden;
@@ -152,14 +150,14 @@ div{
   text-align: center;
 }
 .sidetext{
-  text-align: right;
-  padding: 12px;
-  margin:70px 0 0 90px;
-}
-#info_text{
   text-align: center;
-  margin: 0 40px;
 }
+
+#text{
+  text-align: center;
+  margin: 0 20px;
+}
+
 .menu2{
   display: grid;
   grid-template-columns: 1fr 2fr;
