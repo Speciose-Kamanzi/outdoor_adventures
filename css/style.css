@@ -115,6 +115,22 @@ div {
   grid-template-rows: 1fr;
   text-align: center; }
 
+#pic1 {
+  background-image: url(../images/rock_climbing/rock_climbing1.jpg);
+  background-size: cover; }
+
+#pic2 {
+  background-image: url(../images/camping/pexels-photo-221436.jpeg);
+  background-size: cover; }
+
+#pic3 {
+  background-image: url(../images/hiking/hiking_platterkloof.jpg);
+  background-size: cover; }
+
+#pic4 {
+  background-image: url(../images/fishing/fishing_cape.jpg);
+  background-size: cover; }
+
 .sidetext {
   text-align: center; }
 
@@ -138,7 +154,8 @@ div {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  text-align: center; }
+  text-align: center;
+  height: 380px; }
 
 @media only screen and (max-width: 800px) {
   /* For tablets: */
