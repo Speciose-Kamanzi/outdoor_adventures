@@ -142,13 +142,7 @@ div{
   overflow:hidden;
 }
 
-.menu{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows:1fr;
-  // height:440px;
-  text-align: center;
-}
+
 
 #pic1{
   background-image: url(../images/rock_climbing/rock_climbing1.jpg);
@@ -178,6 +172,13 @@ div{
 #text{
   text-align: center;
   margin: 0 20px;
+}
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows:1fr;
+  // height:440px;
+  text-align: center;
 }
 
 .menu2{
@@ -214,11 +215,17 @@ div{
     width: 100%;
   }
 }
-@media only screen and (max-width:620px){
+@media screen and (max-width:375px){
   /*for mobile phones*/
-  img{
-    width:100%;
-    height:10%;
-    padding:0;
+  .menu{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:1fr 1fr;
+    // height:440px;
+    text-align: center;
+  } 
+
+  #pic1{
+    height:20%;
   }
 }
