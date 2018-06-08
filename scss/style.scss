@@ -8,6 +8,7 @@
 body{
   margin: 0;
   overflow-x: hidden;
+  
 }
 // the beginning of styling the nav bar
 ul {
@@ -16,6 +17,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: sticky;
+    top: 1%;
+    
   }
 // code for my catogories
   .dropdown{

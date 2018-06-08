@@ -7,7 +7,9 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333; }
+  background-color: #333;
+  position: sticky;
+  top: 1%; }
 
 .dropdown {
   float: left;
@@ -48,7 +50,7 @@ li a {
   text-decoration: none; }
 
 ul li:hover .dropdown:hover {
-  background-color: blue; }
+  background-color: #4c87f5; }
 
 .dropdown .button {
   font-size: 16px;
@@ -166,6 +168,25 @@ div {
     text-align: center; } }
 @media screen and (max-width: 380px) {
   /*for mobile phones*/
+  
+  #container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px;
+    margin-top: 1%;
+    grid-gap: 5px;
+    overflow: hidden; }
+    #container h1 {
+      font-size: 30px;
+      text-align: center; 
+    }
+    #container img {
+      height: 210px;
+      width: 368px; 
+      
+    }
+
+
   .menu {
     display: grid;
     grid-template-columns: auto;
@@ -187,7 +208,7 @@ div {
   .menu4 {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 200px 800px;
+    /* grid-template-rows: 200px 800px; */
     text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
